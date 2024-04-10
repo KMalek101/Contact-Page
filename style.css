@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+@media (min-width: 1025px) {
+
+    .container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .bg{
+        position: absolute;
+        z-index: -1;
+    }
+    .icon{
+        position: relative;
+        margin-right: auto;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 44px;
+        margin-left: 60px;
+        padding-right: 950px;
+        cursor: pointer;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    h1{
+        position: relative;
+        margin: 0;
+        color: #F8FAFC;
+        font-size: 64px;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+    h4{
+        position: relative;
+        margin: 0;
+        color: #F8FAFC;
+        font-size: 32px;
+        margin: 0;
+        margin-bottom: 72px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .Box{
+        background-color: #7d50b7db;
+        display: flex;
+        flex-direction: column;
+        width: 812px;
+        border-radius: 16px;
+    }
+    .inputs-container{
+        display: flex;
+        flex-direction: row;
+    }
+    p{
+        margin: 0;
+    }
+    input{
+        background-color: #F8FAFC;
+        padding: 24px 0;
+        padding-left: 16px;
+        margin: 0;
+        margin-top: 4px;
+        margin-bottom: 24px;
+        border-radius: 16px;
+        width: 346px;
+        font-size: 16px;
+        border: none;
+    }
+    input::placeholder{
+        font-family: "Be Vietnam Pro", sans-serif;
+        color: #CDD5E0;
+        font-weight: 600;
+    }
+    .input-1{
+        color: #F8FAFC;
+        font-size: 14px;
+        margin: 0;
+        margin-top: 32px;
+        margin-bottom: 24px;  
+        margin-left: 32px;
+        margin-right: 9px;
+    }
+    .input-2{
+        color: #F8FAFC;
+        font-size: 14px;
+        margin: 0;
+        margin-top: 32px;
+        margin-bottom: 24px;  
+        margin-left: 9px;
+        margin-right: 32px;
+    }
+    .company-size, .Subject{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #F8FAFC;
+        border-radius: 16px;
+        margin: 0;
+        margin-top: 4px;
+        width: 364px;
+        height: 62px;
+        color: #111729;
+    }
+    .employyes-text, .building-landing-pages-text{
+        padding: 0;
+        padding-left: 18px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .down-arrow{
+        padding-right: 24px ;
+        cursor: pointer;
+    }
+    .message{
+        background-color: #F8FAFC;
+        border-radius: 16px;
+        width: 746px;
+        height: 200px;
+        margin: 0;
+        margin-bottom: 24px;
+        margin-left: 32px;
+        vertical-align: top;
+    }
+    .message::placeholder{
+        position: absolute;
+        top: 24px;
+        color: #111729;
+        font-weight: 600;
+    }
+
+    .Contact-Sales{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F8FAFC;
+        color: #4036A9;
+        border-radius: 16px;
+        width: 746px;
+        height: 62px;
+        margin: 0;
+        margin-left: 32px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 32px;
+        cursor: pointer;
+    }
+}
+@media (max-width: 641px) {
+    .inputs-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
